@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main () {
+int main() {
     int numero1;
     int numero2;
     float soma;
@@ -16,7 +16,7 @@ int main () {
 
     soma = numero1 + numero2;
     div = numero1 / numero2;
-    subt= numero1 - numero2;
+    subt = numero1 - numero2;
     multi = numero1 * numero2;
 
     printf("A soma dos numeros e : \n");
@@ -28,9 +28,6 @@ int main () {
     printf("A multiplicacao dos numeros e : \n");
     printf("%d * %d = %.2f \n", numero1, numero2, multi);
 
-   
 
-
-    
     return 0;
 }
